@@ -1,0 +1,146 @@
+:root {
+  --theme-color: #D51518;
+  --theme-color-f8f8f8:#F8F8F8;
+  --theme-color-fff:fff;
+  --theme-color-yellow:#FFB30D;
+}
+
+/*字体大小-------------------------*/
+.fn-sz-22{
+	font-size: 22upx;
+}
+.fn-sz-24{
+	font-size: 24upx;
+}
+.fn-sz-28{
+	font-size: 28upx;
+}
+.fn-sz-26{
+	font-size: 26upx;
+}
+.fn-sz-30{
+	font-size: 30upx;
+}
+.fn-sz-32{
+	font-size: 32upx;
+}
+.fn-sz-36{
+	font-size: 36upx;
+}
+.fn-sz-48{
+	font-size: 48upx;
+}
+.fn-sz-18{
+	font-size: 18upx;
+}
+.fn-sz-60{
+	font-size: 60upx;
+}
+/*字体大小--------------------------------------------*/
+/*字体颜色-------------------------------------------*/
+.fn-cl-theme{
+	color: var(--theme-color);
+}
+.fn-cl-333{ 
+	color: #333;
+}
+.fn-cl-fa5{	
+color: #FA5E0A;
+}
+.fn-cl-fff{
+	color: #fff;
+}
+.fn-cl-65{
+	color: #656565;
+}
+.fn-cl-999{	
+     color: #999999;
+}
+.fn-cl-4646{
+color: #FF4646;
+}
+/*字体加粗*/
+.fn-sz-400{	
+	font-family: PingFang SC;
+	font-weight: 400;
+}
+/*字体颜色-------------------------------------------*/
+/* 图片 图标 尺寸------------------------------------------ */
+.image-sz-32{
+	width: 32upx;
+	height: 32upx;
+}
+
+.image-sz-120{
+	width: 120upx;
+	height: 120upx;
+}
+/* 图片 图标 尺寸------------------------------------------ */
+/* 边距--------------------------------- */
+.margin-right-20{
+	margin-right: 20upx;
+}
+.margin-right-10{
+	margin-right: 10upx;
+}
+.margin-top-20{
+	margin-top: 20upx;
+}
+.margin-top-10{
+	margin-top: 10upx;
+}
+.margin-bottom-30{
+	margin-bottom: 30upx;
+}
+.margin-bottom-20{
+	margin-bottom: 20upx;
+}
+.margin-left-20{
+	margin-left: 20upx;
+}
+.margin-left-30{
+	margin-left: 30upx;
+}
+.margin-left-40{
+	margin-left: 40upx;
+}
+.margin-left-80{
+	margin-left: 80upx;
+}
+.margin-left-10{
+	margin-left: 10upx;
+}
+.margin-bottom-20{
+	margin-bottom: 20upx;
+}
+/* 边距--------------------------------- */
+//行高
+.lin-ht-30{
+	line-height: 30upx;
+}
+//加粗字体
+.fn-bold{
+	font-weight: bold;
+}
+//单行文本 省略号
+.one-line-txt {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: center;
+}
+
+//两行文本 省略号
+.two-line-txt{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	word-break: break-all;
+}
